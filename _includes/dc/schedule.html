@@ -10,51 +10,71 @@ The schedule for the different curricula are listed here:
 {% if site.curriculum == "dc-ecology" %}
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1 (Thur June 10)</h3>
+    <h4>Tidy Data with Spreadsheets</h4>
     <table class="table table-striped">
       <tr>
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr><td>1:00 PM</td> <td>Workshop Introduction</td></tr>
+      <tr><td>1:30 PM</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
+      <tr><td>2:05 PM</td> <td> Break</td></tr>
+	  <tr><td>2:10 PM</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson//02-common-mistakes/index.html">Formatting Problems and Dates as Data</a></td></tr>
+      <tr><td>3:05 PM</td> <td> Break</td></tr>
+	  <tr><td>3:20 PM</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson//04-quality-control/index.html">Quality Control</a></td></tr>
+      <tr><td>4:05 PM</td> <td> Break</td></tr>
+	  <tr><td>4:10 PM</td> <td> OpenRefine Demonstration</td></tr>
+	  <tr><td>4:30 PM</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson//05-exporting-data/index.html">Exporting Data</a></td></tr>
+      <tr> <td>5:00 PM</td> <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2 (Fri June 11)</h3>
+	  <h4><a href='https://datacarpentry.org/R-ecology-lesson/'>Introduction to R and RStudio</a></h4>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
+      <tr><td>1:00 PM</td> <td>Previous Day Review and Question Session></td></tr>
+      <tr><td>1:15 PM</td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html">What is R? Why use R?</a></td></tr>
+      <tr><td>2:00 PM</td> <td> Break</td></tr>
+	  <tr><td>2:05 PM</td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html">Intro to R</a></td></tr>
+      <tr><td>3:00 PM</td> <td> Break</td></tr>
+	  <tr><td>3:15 PM</td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html">Starting with Data</a></td></tr>
+      <tr><td>4:00 PM</td> <td> Break</td></tr>
+	  <tr><td>4:05 PM</td> <td> <a href="https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html"> Continue Starting with Data</a></td></tr>
+      <tr><td>5:00 PM</td> <td>END</td> </tr>
+
+    </table>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <h3>Day 3 (Mon June 14)</h3>
+    <h4>Working with data with R</h4>
+    <table class="table table-striped">
+	  <tr><td>1:00 PM</td> <td>Previous Day Review and Question Session></td></tr>
+      <tr><td>1:15 PM</td> <td><a href="https://datacarpentry.org/R-ecology-lesson/03-dplyr.html">Manipulating Data Frames with <code>dplyr</code></a></td></tr>
+      <tr><td>2:00 PM</td> <td> Break</td></tr>
+	  <tr><td>2:05 PM</td> <td>More Manipulating Data Frames with <code>dplyr</code></td></tr>
+      <tr><td>3:00 PM</td> <td> Break</td></tr>
+	  <tr><td>3:15 PM</td> <td>Even More Manipulating Data Frames with <code>dplyr</code></td></tr>
+      <tr><td>4:00 PM</td> <td> Break</td></tr>
+	  <tr><td>4:05 PM</td> <td>Plus Additional Manipulating Data Frames with <code>dplyr</code></td></tr>
+      <tr><td>5:00 PM</td> <td>END</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 4 (Tue June 15)</h3>
+    <h4>Visualizing data with R</h4>
+    <table class="table table-striped">
+      <tr><td>1:00 PM</td> <td>Previous Day Review and Question Session></td></tr>
+      <tr><td>1:15 PM</td> <td> Exciting R Use Case Demonstrations! </td></tr>
+      <tr><td>2:00 PM</td> <td> Break</td></tr>
+	  <tr><td>2:05 PM</td> <td><a href="https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html">Data Visualization with <code>ggplot2</code> Part I</a></td></tr>
+      <tr><td>3:00 PM</td> <td> Break</td></tr>
+	  <tr><td>3:15 PM</td> <td>Data Visualization with <code>ggplot2</code> Part II</td></tr>
+      <tr><td>4:00 PM</td> <td> Break</td></tr>
+	  <tr><td>4:05 PM</td> <td>Data Visualization with <code>ggplot2</code> Part III</td></tr>
+      <tr><td>5:00 PM</td> <td>END</td> </tr>
     </table>
   </div>
 </div>
