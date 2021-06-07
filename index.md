@@ -4,10 +4,12 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Smithsonian Environmental Research Center"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Zoom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "United State"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 humandate: "June 10-11 & June 14-15, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latitude: "38.90"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-76.54"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humantime: "1:00 pm - 5:00 pm ET"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-06-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
